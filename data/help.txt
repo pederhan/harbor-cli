@@ -1,0 +1,111 @@
+                                                                                
+ Usage: harbor [OPTIONS] COMMAND [ARGS]...                                      
+                                                                                
+ Harbor CLI                                                                     
+                                                                                
+╭─ Options ────────────────────────────────────────────────────────────────────╮
+│ --config          -c                      PATH             Path to config    │
+│                                                            file.             │
+│                                                            [default: None]   │
+│ --harbor-url      -u                      TEXT             Harbor URL.       │
+│                                                            [default: None]   │
+│ --harbor-userna…  -U                      TEXT             Harbor username.  │
+│                                                            [default: None]   │
+│ --harbor-secret   -S                      TEXT             Harbor secret.    │
+│                                                            [default: None]   │
+│ --credentials     -C                      TEXT             Harbor basic      │
+│                                                            access            │
+│                                                            credentials       │
+│                                                            (base64).         │
+│                                                            [default: None]   │
+│ --credentials-f…  -F                      PATH             Harbor basic      │
+│                                                            access            │
+│                                                            credentials file. │
+│                                                            [default: None]   │
+│ --table-descrip…      --table-no-desc…                     Include field     │
+│                                                            descriptions in   │
+│                                                            tables. Only      │
+│                                                            affects tables.   │
+│                                                            [default:         │
+│                                                            table-no-descrip… │
+│ --table-max-dep…                          INTEGER          Maximum depth to  │
+│                                                            print nested      │
+│                                                            objects. Only     │
+│                                                            affects tables.   │
+│                                                            [default: None]   │
+│ --table-compact       --table-no-comp…                     Compact table     │
+│                                                            output. Only      │
+│                                                            affects tables.   │
+│                                                            [default:         │
+│                                                            table-no-compact] │
+│ --json-indent                             INTEGER          Indentation level │
+│                                                            for JSON output.  │
+│                                                            Affects JSON and  │
+│                                                            JSON schema.      │
+│                                                            [default: None]   │
+│ --json-sort-keys      --json-no-sort-…                     Sort keys in JSON │
+│                                                            output. Affects   │
+│                                                            JSON and JSON     │
+│                                                            schema.           │
+│                                                            [default:         │
+│                                                            json-no-sort-key… │
+│ --format          -f                      [table|json|jso  Output format.    │
+│                                           nschema]         [default: None]   │
+│ --output          -o                      PATH             Output file, by   │
+│                                                            default None,     │
+│                                                            which means       │
+│                                                            output to stdout. │
+│                                                            If the file       │
+│                                                            already exists,   │
+│                                                            it will be        │
+│                                                            overwritten.      │
+│                                                            [default: None]   │
+│ --no-overwrite                                             Do not overwrite  │
+│                                                            the output file   │
+│                                                            if it already     │
+│                                                            exists.           │
+│ --verbose         -v                                       Enable verbose    │
+│                                                            output.           │
+│ --with-stdout                                              Output to stdout  │
+│                                                            in addition to    │
+│                                                            the specified     │
+│                                                            output file, if   │
+│                                                            any. Has no       │
+│                                                            effect if no      │
+│                                                            output file is    │
+│                                                            specified.        │
+│ --install-compl…                          [bash|zsh|fish|  Install           │
+│                                           powershell|pwsh  completion for    │
+│                                           ]                the specified     │
+│                                                            shell.            │
+│                                                            [default: None]   │
+│ --show-completi…                          [bash|zsh|fish|  Show completion   │
+│                                           powershell|pwsh  for the specified │
+│                                           ]                shell, to copy it │
+│                                                            or customize the  │
+│                                                            installation.     │
+│                                                            [default: None]   │
+│ --help                                                     Show this message │
+│                                                            and exit.         │
+╰──────────────────────────────────────────────────────────────────────────────╯
+╭─ Commands ───────────────────────────────────────────────────────────────────╮
+│ artifact             Manage artifacts.                                       │
+│ auditlog             System information                                      │
+│ config               Manage Harbor configuration.                            │
+│ cve-allowlist        Manage the system-wide CVE allowlist.                   │
+│ gc                   Garbage Collection scheduling and information           │
+│ init                 Initialize Harbor CLI configuration file.               │
+│ ldap                 LDAP configuration                                      │
+│ project              Manage projects.                                        │
+│ registry             Registry management                                     │
+│ replication          Registry replication execution and policy.              │
+│ repository           Manage repositories.                                    │
+│ sample-config        Print a sample config file to stdout.                   │
+│ scan                 Scanning of individual artifacts.                       │
+│ scan-all             Scanning of all artifacts.                              │
+│ scanner              Manage scanners.                                        │
+│ system               System information                                      │
+│ user                 Manage users.                                           │
+│ vulnerabilities      List vulnerabilities for an artifact.                   │
+╰──────────────────────────────────────────────────────────────────────────────╯
+

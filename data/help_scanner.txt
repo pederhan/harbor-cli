@@ -1,0 +1,20 @@
+                                                                                
+ Usage: harbor scanner list [OPTIONS]                                           
+                                                                                
+ List scanners.                                                                 
+                                                                                
+╭─ Options ────────────────────────────────────────────────────────────────────╮
+│ --query            TEXT     Query parameters to filter the results.          │
+│                             [default: None]                                  │
+│ --sort             TEXT     Sorting order of the results. Example:           │
+│                             'name,-id' to sort by name ascending and id      │
+│                             descending.                                      │
+│                             [default: None]                                  │
+│ --page             INTEGER  (Advanced) Page to begin fetching from.          │
+│                             [default: 1]                                     │
+│ --page-size        INTEGER  (Advanced) Number of results to fetch per API    │
+│                             call.                                            │
+│                             [default: 10]                                    │
+│ --help                      Show this message and exit.                      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+

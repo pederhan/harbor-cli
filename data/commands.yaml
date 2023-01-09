@@ -1,0 +1,107 @@
+- artifact accessories
+- artifact buildhistory
+- artifact copy
+- artifact delete
+- artifact get
+- artifact label
+- artifact label add
+- artifact label delete
+- artifact list
+- artifact tag
+- artifact tag create
+- artifact tag delete
+- artifact tag list
+- artifact vulnerabilities
+- auditlog list
+- config get
+- config update
+- cve-allowlist clear
+- cve-allowlist get
+- cve-allowlist update
+- gc job
+- gc jobs
+- gc log
+- gc schedule
+- gc schedule create
+- gc schedule get
+- gc schedule update
+- ldap ping
+- ldap search
+- ldap search groups
+- ldap search users
+- project create
+- project delete
+- project exists
+- project get
+- project list
+- project logs
+- project metadata
+- project metadata field
+- project metadata field delete
+- project metadata field get
+- project metadata field set
+- project metadata get
+- project metadata set
+- project scanner
+- project scanner candidates
+- project scanner get
+- project scanner set
+- project summary
+- project update
+- registry adapters
+- registry create
+- registry delete
+- registry get
+- registry list
+- registry providers
+- registry status
+- registry update
+- replication get
+- replication list
+- replication policy
+- replication policy create
+- replication policy delete
+- replication policy get
+- replication policy list
+- replication start
+- replication stop
+- replication task
+- replication task list
+- replication task log
+- repository delete
+- repository get
+- repository list
+- repository update
+- scan log
+- scan start
+- scan stop
+- scan-all metrics
+- scan-all schedule
+- scan-all schedule create
+- scan-all schedule get
+- scan-all schedule update
+- scan-all stop
+- scanner create
+- scanner default
+- scanner delete
+- scanner get
+- scanner list
+- scanner update
+- system health
+- system info
+- system ping
+- system statistics
+- system volumes
+- user create
+- user delete
+- user get
+- user get-current
+- user get-current-permissions
+- user list
+- user search
+- user set-admin
+- user set-cli-secret
+- user set-password
+- user unset-admin
+- user update
+- ''
